@@ -1,0 +1,243 @@
+.nbh-performance-notice {
+	position: relative;
+	display: flex;
+	gap: 14px;
+	align-items: flex-start;
+	padding: 16px 46px 16px 16px;
+	border-left-width: 4px;
+	border-radius: 10px;
+	box-shadow: 0 8px 28px rgba(15, 23, 42, .07);
+}
+.nbh-performance-notice--error { border-left-color: #dc2626; background: #fff7f7; }
+.nbh-performance-notice--warning { border-left-color: #d97706; background: #fffaf0; }
+.nbh-performance-notice--success { border-left-color: #059669; background: #f3fcf8; }
+.nbh-performance-notice__icon {
+	flex: 0 0 38px;
+	display: grid;
+	place-items: center;
+	width: 38px;
+	height: 38px;
+	border-radius: 10px;
+	background: #fff;
+	box-shadow: inset 0 0 0 1px rgba(15, 23, 42, .08);
+}
+.nbh-performance-notice--error .nbh-performance-notice__icon { color: #dc2626; }
+.nbh-performance-notice--warning .nbh-performance-notice__icon { color: #d97706; }
+.nbh-performance-notice--success .nbh-performance-notice__icon { color: #059669; }
+.nbh-performance-notice__content { flex: 1 1 auto; min-width: 0; }
+.nbh-performance-notice__title { display: block; margin: 1px 0 5px; color: #172033; font-size: 14px; line-height: 1.35; }
+.nbh-performance-notice__message,
+.nbh-performance-notice__detail { margin: 0; max-width: 980px; color: #334155; line-height: 1.55; }
+.nbh-performance-notice__detail { margin-top: 4px; color: #64748b; font-size: 12.5px; }
+.nbh-performance-notice__actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.nbh-performance-notice__actions .button { min-height: 32px; display: inline-flex; align-items: center; justify-content: center; border-radius: 7px; }
+.nbh-performance-confirm-backdrop {
+	position: fixed;
+	z-index: 100000;
+	inset: 0;
+	display: grid;
+	place-items: center;
+	padding: 24px;
+	background: rgba(15, 23, 42, .55);
+	backdrop-filter: blur(2px);
+}
+.nbh-performance-confirm-dialog {
+	width: min(520px, 100%);
+	padding: 22px;
+	border-radius: 14px;
+	background: #fff;
+	box-shadow: 0 24px 80px rgba(15, 23, 42, .28);
+}
+.nbh-performance-confirm-dialog__eyebrow { margin: 0 0 6px; color: #2563eb; font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.nbh-performance-confirm-dialog h2 { margin: 0 0 10px; color: #172033; font-size: 20px; line-height: 1.3; }
+.nbh-performance-confirm-dialog p { margin: 0; color: #475569; font-size: 14px; line-height: 1.6; }
+.nbh-performance-confirm-dialog__safety { display: flex; gap: 8px; margin-top: 14px; padding: 10px 12px; border-radius: 9px; background: #f0f7ff; color: #315b8c; font-size: 12.5px; }
+.nbh-performance-confirm-dialog__actions { display: flex; justify-content: flex-end; gap: 9px; margin-top: 20px; }
+.nbh-performance-confirm-dialog__actions .button { min-height: 36px; border-radius: 8px; }
+@media (max-width: 782px) {
+	.nbh-performance-notice { padding: 14px 42px 14px 12px; }
+	.nbh-performance-notice__icon { display: none; }
+	.nbh-performance-confirm-dialog__actions { flex-direction: column-reverse; }
+	.nbh-performance-confirm-dialog__actions .button { width: 100%; justify-content: center; }
+}
+
+body.nbh-performance-modal-open { overflow: hidden; }
+.nbh-performance-issue-backdrop {
+	position: fixed;
+	z-index: 99999;
+	inset: 0;
+	display: grid;
+	place-items: center;
+	padding: 24px;
+	background: rgba(15, 23, 42, .58);
+	backdrop-filter: blur(3px);
+}
+.nbh-performance-issue-dialog {
+	width: min(660px, 100%);
+	max-height: min(760px, calc(100vh - 48px));
+	overflow: auto;
+	border: 1px solid #dbe5f1;
+	border-radius: 18px;
+	background: #fff;
+	box-shadow: 0 30px 90px rgba(15, 23, 42, .32);
+}
+.nbh-performance-issue-dialog__head {
+	display: grid;
+	grid-template-columns: 46px minmax(0, 1fr) 36px;
+	gap: 14px;
+	align-items: start;
+	padding: 21px 22px 18px;
+	border-bottom: 1px solid #e7edf5;
+	background: linear-gradient(135deg, #fff 0%, #f7faff 100%);
+}
+.nbh-performance-issue-dialog__icon {
+	display: grid;
+	place-items: center;
+	width: 46px;
+	height: 46px;
+	border-radius: 13px;
+	background: #fff4df;
+	color: #c56508;
+	font-size: 24px;
+	box-shadow: inset 0 0 0 1px #f5d8a8;
+}
+.nbh-performance-issue-dialog__head h2 {
+	margin: 0;
+	color: #172033;
+	font-size: 21px;
+	line-height: 1.3;
+}
+.nbh-performance-issue-dialog__close {
+	display: grid;
+	place-items: center;
+	width: 34px;
+	height: 34px;
+	padding: 0;
+	border: 1px solid #dbe5f1;
+	border-radius: 9px;
+	background: #fff;
+	color: #64748b;
+	cursor: pointer;
+}
+.nbh-performance-issue-dialog__close:hover { color: #172033; border-color: #b9c8db; }
+.nbh-performance-issue-dialog__body { padding: 20px 22px; }
+.nbh-performance-issue-dialog__message { margin: 0; color: #27364b; font-size: 15px; font-weight: 600; line-height: 1.65; }
+.nbh-performance-issue-dialog__detail {
+	display: flex;
+	gap: 9px;
+	align-items: flex-start;
+	margin-top: 13px;
+	padding: 12px 13px;
+	border: 1px solid #d9e7fa;
+	border-radius: 11px;
+	background: #f3f8ff;
+	color: #476381;
+	font-size: 13px;
+	line-height: 1.55;
+}
+.nbh-performance-issue-dialog__detail .dashicons { flex: 0 0 auto; margin-top: 1px; color: #2563eb; }
+.nbh-performance-issue-dialog__prompt { margin: 19px 0 10px; color: #172033; font-size: 13px; font-weight: 700; }
+.nbh-performance-issue-dialog__actions { display: grid; gap: 9px; }
+.nbh-performance-issue-dialog__action.button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	min-height: 42px;
+	padding: 8px 16px;
+	border-radius: 9px;
+	font-weight: 600;
+	text-align: center;
+}
+.nbh-performance-issue-dialog__footer {
+	display: flex;
+	gap: 16px;
+	align-items: center;
+	justify-content: space-between;
+	padding: 14px 22px;
+	border-top: 1px solid #e7edf5;
+	background: #fbfcfe;
+}
+.nbh-performance-issue-dialog__footer span { max-width: 440px; color: #64748b; font-size: 12px; line-height: 1.5; }
+.nbh-performance-issue-dialog__footer .button { flex: 0 0 auto; min-height: 36px; border-radius: 8px; }
+@media (max-width: 600px) {
+	.nbh-performance-issue-backdrop { padding: 10px; }
+	.nbh-performance-issue-dialog { max-height: calc(100vh - 20px); }
+	.nbh-performance-issue-dialog__head { grid-template-columns: 40px minmax(0, 1fr) 34px; gap: 10px; padding: 17px; }
+	.nbh-performance-issue-dialog__icon { width: 40px; height: 40px; }
+	.nbh-performance-issue-dialog__head h2 { font-size: 18px; }
+	.nbh-performance-issue-dialog__body { padding: 17px; }
+	.nbh-performance-issue-dialog__footer { flex-direction: column; align-items: stretch; padding: 13px 17px; }
+	.nbh-performance-issue-dialog__footer .button { width: 100%; justify-content: center; }
+}
+
+/* Compact compatibility dialogs: essential text and clear choices only. */
+.nbh-performance-confirm-backdrop,
+.nbh-performance-issue-backdrop {
+	padding: 16px;
+	background: rgba(15, 23, 42, .5);
+	backdrop-filter: blur(2px);
+}
+.nbh-performance-confirm-dialog {
+	width: min(430px, 100%);
+	padding: 18px;
+	border-radius: 12px;
+}
+.nbh-performance-confirm-dialog h2 {
+	margin: 0 0 8px;
+	font-size: 17px;
+	line-height: 1.3;
+}
+.nbh-performance-confirm-dialog p {
+	font-size: 13px;
+	line-height: 1.5;
+}
+.nbh-performance-confirm-dialog__eyebrow,
+.nbh-performance-confirm-dialog__safety { display: none !important; }
+.nbh-performance-confirm-dialog__actions { margin-top: 16px; }
+.nbh-performance-confirm-dialog__actions .button { min-height: 34px; }
+
+.nbh-performance-issue-dialog {
+	width: min(520px, 100%);
+	max-height: min(650px, calc(100vh - 32px));
+	border-radius: 14px;
+}
+.nbh-performance-issue-dialog__head {
+	grid-template-columns: 36px minmax(0, 1fr) 32px;
+	gap: 10px;
+	align-items: center;
+	padding: 14px 15px;
+	background: #fff;
+}
+.nbh-performance-issue-dialog__icon {
+	width: 36px;
+	height: 36px;
+	border-radius: 10px;
+	font-size: 20px;
+}
+.nbh-performance-issue-dialog__head h2 { margin: 0; font-size: 17px; line-height: 1.3; }
+.nbh-performance-issue-dialog__close { width: 30px; height: 30px; border-radius: 8px; }
+.nbh-performance-issue-dialog__body { padding: 15px; }
+.nbh-performance-issue-dialog__message { font-size: 13px; font-weight: 600; line-height: 1.5; }
+.nbh-performance-issue-dialog__detail {
+	margin: 8px 0 0;
+	padding: 0;
+	border: 0;
+	background: transparent;
+	color: #64748b;
+	font-size: 12px;
+	line-height: 1.45;
+}
+.nbh-performance-issue-dialog__prompt { display: none; }
+.nbh-performance-issue-dialog__actions { gap: 7px; margin-top: 14px; }
+.nbh-performance-issue-dialog__action.button { min-height: 36px; padding: 6px 12px; border-radius: 8px; }
+.nbh-performance-issue-dialog__footer { justify-content: flex-end; padding: 10px 15px; }
+.nbh-performance-issue-dialog__footer span { display: none; }
+.nbh-performance-issue-dialog__footer .button { min-height: 32px; }
+.nbh-performance-notice { padding: 13px 42px 13px 13px; border-radius: 8px; box-shadow: 0 5px 18px rgba(15, 23, 42, .05); }
+.nbh-performance-notice__icon { width: 34px; height: 34px; flex-basis: 34px; border-radius: 9px; }
+.nbh-performance-notice__title { margin-bottom: 3px; font-size: 13px; }
+.nbh-performance-notice__message { font-size: 13px; line-height: 1.45; }
+.nbh-performance-notice__detail { font-size: 11.5px; line-height: 1.4; }
+.nbh-performance-notice__actions { margin-top: 9px; }
+.nbh-performance-notice__actions .button { min-height: 30px; }

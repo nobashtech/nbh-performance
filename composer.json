@@ -1,0 +1,24 @@
+{
+  "name": "nobash/nbh-performance",
+  "description": "Free and open-source WordPress performance tools with page caching, image optimization and recovery controls.",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://nbhperformance.com",
+  "authors": [
+    {
+      "name": "Nobash",
+      "homepage": "https://nobash.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "NBH\\Performance\\": "./"
+    }
+  },
+  "scripts": {
+    "test": "php tests/stability.php"
+  }
+}

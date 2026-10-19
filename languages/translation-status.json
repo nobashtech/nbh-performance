@@ -1,0 +1,718 @@
+{
+  "schema_version": 2,
+  "build": "1.0.0-release-gate-c-multilingual-pack-20260717.3",
+  "domain": "nbh-performance",
+  "source_messages": 2116,
+  "default_locale": "en_US",
+  "bundled_locale_count": 16,
+  "bundled_locales": [
+    "bn_BD",
+    "es_ES",
+    "fr_FR",
+    "de_DE",
+    "pt_BR",
+    "it_IT",
+    "nl_NL",
+    "tr_TR",
+    "ru_RU",
+    "ar",
+    "hi_IN",
+    "ur",
+    "id_ID",
+    "ja",
+    "ko_KR",
+    "zh_CN"
+  ],
+  "locales": [
+    {
+      "locale": "bn_BD",
+      "native_name": "বাংলা",
+      "language_team": "Bengali",
+      "direction": "ltr",
+      "tier": "expanded-review-needed",
+      "translated_messages": 2050,
+      "coverage_percent": 96.88,
+      "compiled_mo": "nbh-performance-bn_BD.mo",
+      "javascript_catalogs": [
+        {
+          "source": "assets/js/hub-dashboard.js",
+          "file": "nbh-performance-bn_BD-fc8cb16ca9785b95c3dc7d9891c4d9d3.json",
+          "messages": 874
+        },
+        {
+          "source": "assets/js/hub-catalog.js",
+          "file": "nbh-performance-bn_BD-f54e6825e26a8895cf1a26450084af67.json",
+          "messages": 114
+        },
+        {
+          "source": "assets/js/hub-product-quality.js",
+          "file": "nbh-performance-bn_BD-eec4466f46c2d20c17d3014e6864ea54.json",
+          "messages": 41
+        },
+        {
+          "source": "assets/js/hub-quality-runtime.js",
+          "file": "nbh-performance-bn_BD-f346e72e8897ad2245c1da4fc853d161.json",
+          "messages": 5
+        },
+        {
+          "source": "assets/js/script-manager-admin.js",
+          "file": "nbh-performance-bn_BD-866bb2c40c29ecd55f2a9bfe84db3ddf.json",
+          "messages": 136
+        },
+        {
+          "source": "assets/js/admin-notices.js",
+          "file": "nbh-performance-bn_BD-470ac673d4822f4dd12f0173c2555751.json",
+          "messages": 9
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "locale": "es_ES",
+      "native_name": "Español",
+      "language_team": "Spanish",
+      "direction": "ltr",
+      "tier": "starter-core-ui",
+      "translated_messages": 72,
+      "coverage_percent": 3.4,
+      "compiled_mo": "nbh-performance-es_ES.mo",
+      "javascript_catalogs": [
+        {
+          "source": "assets/js/hub-dashboard.js",
+          "file": "nbh-performance-es_ES-fc8cb16ca9785b95c3dc7d9891c4d9d3.json",
+          "messages": 53
+        },
+        {
+          "source": "assets/js/hub-catalog.js",
+          "file": "nbh-performance-es_ES-f54e6825e26a8895cf1a26450084af67.json",
+          "messages": 8
+        },
+        {
+          "source": "assets/js/hub-product-quality.js",
+          "file": "nbh-performance-es_ES-eec4466f46c2d20c17d3014e6864ea54.json",
+          "messages": 7
+        },
+        {
+          "source": "assets/js/hub-quality-runtime.js",
+          "file": "nbh-performance-es_ES-f346e72e8897ad2245c1da4fc853d161.json",
+          "messages": 0
+        },
+        {
+          "source": "assets/js/script-manager-admin.js",
+          "file": "nbh-performance-es_ES-866bb2c40c29ecd55f2a9bfe84db3ddf.json",
+          "messages": 4
+        },
+        {
+          "source": "assets/js/admin-notices.js",
+          "file": "nbh-performance-es_ES-470ac673d4822f4dd12f0173c2555751.json",
+          "messages": 3
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "locale": "fr_FR",
+      "native_name": "Français",
+      "language_team": "French",
+      "direction": "ltr",
+      "tier": "starter-core-ui",
+      "translated_messages": 72,
+      "coverage_percent": 3.4,
+      "compiled_mo": "nbh-performance-fr_FR.mo",
+      "javascript_catalogs": [
+        {
+          "source": "assets/js/hub-dashboard.js",
+          "file": "nbh-performance-fr_FR-fc8cb16ca9785b95c3dc7d9891c4d9d3.json",
+          "messages": 53
+        },
+        {
+          "source": "assets/js/hub-catalog.js",
+          "file": "nbh-performance-fr_FR-f54e6825e26a8895cf1a26450084af67.json",
+          "messages": 8
+        },
+        {
+          "source": "assets/js/hub-product-quality.js",
+          "file": "nbh-performance-fr_FR-eec4466f46c2d20c17d3014e6864ea54.json",
+          "messages": 7
+        },
+        {
+          "source": "assets/js/hub-quality-runtime.js",
+          "file": "nbh-performance-fr_FR-f346e72e8897ad2245c1da4fc853d161.json",
+          "messages": 0
+        },
+        {
+          "source": "assets/js/script-manager-admin.js",
+          "file": "nbh-performance-fr_FR-866bb2c40c29ecd55f2a9bfe84db3ddf.json",
+          "messages": 4
+        },
+        {
+          "source": "assets/js/admin-notices.js",
+          "file": "nbh-performance-fr_FR-470ac673d4822f4dd12f0173c2555751.json",
+          "messages": 3
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "locale": "de_DE",
+      "native_name": "Deutsch",
+      "language_team": "German",
+      "direction": "ltr",
+      "tier": "starter-core-ui",
+      "translated_messages": 72,
+      "coverage_percent": 3.4,
+      "compiled_mo": "nbh-performance-de_DE.mo",
+      "javascript_catalogs": [
+        {
+          "source": "assets/js/hub-dashboard.js",
+          "file": "nbh-performance-de_DE-fc8cb16ca9785b95c3dc7d9891c4d9d3.json",
+          "messages": 53
+        },
+        {
+          "source": "assets/js/hub-catalog.js",
+          "file": "nbh-performance-de_DE-f54e6825e26a8895cf1a26450084af67.json",
+          "messages": 8
+        },
+        {
+          "source": "assets/js/hub-product-quality.js",
+          "file": "nbh-performance-de_DE-eec4466f46c2d20c17d3014e6864ea54.json",
+          "messages": 7
+        },
+        {
+          "source": "assets/js/hub-quality-runtime.js",
+          "file": "nbh-performance-de_DE-f346e72e8897ad2245c1da4fc853d161.json",
+          "messages": 0
+        },
+        {
+          "source": "assets/js/script-manager-admin.js",
+          "file": "nbh-performance-de_DE-866bb2c40c29ecd55f2a9bfe84db3ddf.json",
+          "messages": 4
+        },
+        {
+          "source": "assets/js/admin-notices.js",
+          "file": "nbh-performance-de_DE-470ac673d4822f4dd12f0173c2555751.json",
+          "messages": 3
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "locale": "pt_BR",
+      "native_name": "Português do Brasil",
+      "language_team": "Portuguese (Brazil)",
+      "direction": "ltr",
+      "tier": "starter-core-ui",
+      "translated_messages": 72,
+      "coverage_percent": 3.4,
+      "compiled_mo": "nbh-performance-pt_BR.mo",
+      "javascript_catalogs": [
+        {
+          "source": "assets/js/hub-dashboard.js",
+          "file": "nbh-performance-pt_BR-fc8cb16ca9785b95c3dc7d9891c4d9d3.json",
+          "messages": 53
+        },
+        {
+          "source": "assets/js/hub-catalog.js",
+          "file": "nbh-performance-pt_BR-f54e6825e26a8895cf1a26450084af67.json",
+          "messages": 8
+        },
+        {
+          "source": "assets/js/hub-product-quality.js",
+          "file": "nbh-performance-pt_BR-eec4466f46c2d20c17d3014e6864ea54.json",
+          "messages": 7
+        },
+        {
+          "source": "assets/js/hub-quality-runtime.js",
+          "file": "nbh-performance-pt_BR-f346e72e8897ad2245c1da4fc853d161.json",
+          "messages": 0
+        },
+        {
+          "source": "assets/js/script-manager-admin.js",
+          "file": "nbh-performance-pt_BR-866bb2c40c29ecd55f2a9bfe84db3ddf.json",
+          "messages": 4
+        },
+        {
+          "source": "assets/js/admin-notices.js",
+          "file": "nbh-performance-pt_BR-470ac673d4822f4dd12f0173c2555751.json",
+          "messages": 3
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "locale": "it_IT",
+      "native_name": "Italiano",
+      "language_team": "Italian",
+      "direction": "ltr",
+      "tier": "starter-core-ui",
+      "translated_messages": 72,
+      "coverage_percent": 3.4,
+      "compiled_mo": "nbh-performance-it_IT.mo",
+      "javascript_catalogs": [
+        {
+          "source": "assets/js/hub-dashboard.js",
+          "file": "nbh-performance-it_IT-fc8cb16ca9785b95c3dc7d9891c4d9d3.json",
+          "messages": 53
+        },
+        {
+          "source": "assets/js/hub-catalog.js",
+          "file": "nbh-performance-it_IT-f54e6825e26a8895cf1a26450084af67.json",
+          "messages": 8
+        },
+        {
+          "source": "assets/js/hub-product-quality.js",
+          "file": "nbh-performance-it_IT-eec4466f46c2d20c17d3014e6864ea54.json",
+          "messages": 7
+        },
+        {
+          "source": "assets/js/hub-quality-runtime.js",
+          "file": "nbh-performance-it_IT-f346e72e8897ad2245c1da4fc853d161.json",
+          "messages": 0
+        },
+        {
+          "source": "assets/js/script-manager-admin.js",
+          "file": "nbh-performance-it_IT-866bb2c40c29ecd55f2a9bfe84db3ddf.json",
+          "messages": 4
+        },
+        {
+          "source": "assets/js/admin-notices.js",
+          "file": "nbh-performance-it_IT-470ac673d4822f4dd12f0173c2555751.json",
+          "messages": 3
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "locale": "nl_NL",
+      "native_name": "Nederlands",
+      "language_team": "Dutch",
+      "direction": "ltr",
+      "tier": "starter-core-ui",
+      "translated_messages": 72,
+      "coverage_percent": 3.4,
+      "compiled_mo": "nbh-performance-nl_NL.mo",
+      "javascript_catalogs": [
+        {
+          "source": "assets/js/hub-dashboard.js",
+          "file": "nbh-performance-nl_NL-fc8cb16ca9785b95c3dc7d9891c4d9d3.json",
+          "messages": 53
+        },
+        {
+          "source": "assets/js/hub-catalog.js",
+          "file": "nbh-performance-nl_NL-f54e6825e26a8895cf1a26450084af67.json",
+          "messages": 8
+        },
+        {
+          "source": "assets/js/hub-product-quality.js",
+          "file": "nbh-performance-nl_NL-eec4466f46c2d20c17d3014e6864ea54.json",
+          "messages": 7
+        },
+        {
+          "source": "assets/js/hub-quality-runtime.js",
+          "file": "nbh-performance-nl_NL-f346e72e8897ad2245c1da4fc853d161.json",
+          "messages": 0
+        },
+        {
+          "source": "assets/js/script-manager-admin.js",
+          "file": "nbh-performance-nl_NL-866bb2c40c29ecd55f2a9bfe84db3ddf.json",
+          "messages": 4
+        },
+        {
+          "source": "assets/js/admin-notices.js",
+          "file": "nbh-performance-nl_NL-470ac673d4822f4dd12f0173c2555751.json",
+          "messages": 3
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "locale": "tr_TR",
+      "native_name": "Türkçe",
+      "language_team": "Turkish",
+      "direction": "ltr",
+      "tier": "starter-core-ui",
+      "translated_messages": 72,
+      "coverage_percent": 3.4,
+      "compiled_mo": "nbh-performance-tr_TR.mo",
+      "javascript_catalogs": [
+        {
+          "source": "assets/js/hub-dashboard.js",
+          "file": "nbh-performance-tr_TR-fc8cb16ca9785b95c3dc7d9891c4d9d3.json",
+          "messages": 53
+        },
+        {
+          "source": "assets/js/hub-catalog.js",
+          "file": "nbh-performance-tr_TR-f54e6825e26a8895cf1a26450084af67.json",
+          "messages": 8
+        },
+        {
+          "source": "assets/js/hub-product-quality.js",
+          "file": "nbh-performance-tr_TR-eec4466f46c2d20c17d3014e6864ea54.json",
+          "messages": 7
+        },
+        {
+          "source": "assets/js/hub-quality-runtime.js",
+          "file": "nbh-performance-tr_TR-f346e72e8897ad2245c1da4fc853d161.json",
+          "messages": 0
+        },
+        {
+          "source": "assets/js/script-manager-admin.js",
+          "file": "nbh-performance-tr_TR-866bb2c40c29ecd55f2a9bfe84db3ddf.json",
+          "messages": 4
+        },
+        {
+          "source": "assets/js/admin-notices.js",
+          "file": "nbh-performance-tr_TR-470ac673d4822f4dd12f0173c2555751.json",
+          "messages": 3
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "locale": "ru_RU",
+      "native_name": "Русский",
+      "language_team": "Russian",
+      "direction": "ltr",
+      "tier": "starter-core-ui",
+      "translated_messages": 72,
+      "coverage_percent": 3.4,
+      "compiled_mo": "nbh-performance-ru_RU.mo",
+      "javascript_catalogs": [
+        {
+          "source": "assets/js/hub-dashboard.js",
+          "file": "nbh-performance-ru_RU-fc8cb16ca9785b95c3dc7d9891c4d9d3.json",
+          "messages": 53
+        },
+        {
+          "source": "assets/js/hub-catalog.js",
+          "file": "nbh-performance-ru_RU-f54e6825e26a8895cf1a26450084af67.json",
+          "messages": 8
+        },
+        {
+          "source": "assets/js/hub-product-quality.js",
+          "file": "nbh-performance-ru_RU-eec4466f46c2d20c17d3014e6864ea54.json",
+          "messages": 7
+        },
+        {
+          "source": "assets/js/hub-quality-runtime.js",
+          "file": "nbh-performance-ru_RU-f346e72e8897ad2245c1da4fc853d161.json",
+          "messages": 0
+        },
+        {
+          "source": "assets/js/script-manager-admin.js",
+          "file": "nbh-performance-ru_RU-866bb2c40c29ecd55f2a9bfe84db3ddf.json",
+          "messages": 4
+        },
+        {
+          "source": "assets/js/admin-notices.js",
+          "file": "nbh-performance-ru_RU-470ac673d4822f4dd12f0173c2555751.json",
+          "messages": 3
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "locale": "ar",
+      "native_name": "العربية",
+      "language_team": "Arabic",
+      "direction": "rtl",
+      "tier": "starter-core-ui",
+      "translated_messages": 72,
+      "coverage_percent": 3.4,
+      "compiled_mo": "nbh-performance-ar.mo",
+      "javascript_catalogs": [
+        {
+          "source": "assets/js/hub-dashboard.js",
+          "file": "nbh-performance-ar-fc8cb16ca9785b95c3dc7d9891c4d9d3.json",
+          "messages": 53
+        },
+        {
+          "source": "assets/js/hub-catalog.js",
+          "file": "nbh-performance-ar-f54e6825e26a8895cf1a26450084af67.json",
+          "messages": 8
+        },
+        {
+          "source": "assets/js/hub-product-quality.js",
+          "file": "nbh-performance-ar-eec4466f46c2d20c17d3014e6864ea54.json",
+          "messages": 7
+        },
+        {
+          "source": "assets/js/hub-quality-runtime.js",
+          "file": "nbh-performance-ar-f346e72e8897ad2245c1da4fc853d161.json",
+          "messages": 0
+        },
+        {
+          "source": "assets/js/script-manager-admin.js",
+          "file": "nbh-performance-ar-866bb2c40c29ecd55f2a9bfe84db3ddf.json",
+          "messages": 4
+        },
+        {
+          "source": "assets/js/admin-notices.js",
+          "file": "nbh-performance-ar-470ac673d4822f4dd12f0173c2555751.json",
+          "messages": 3
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "locale": "hi_IN",
+      "native_name": "हिन्दी",
+      "language_team": "Hindi",
+      "direction": "ltr",
+      "tier": "starter-core-ui",
+      "translated_messages": 72,
+      "coverage_percent": 3.4,
+      "compiled_mo": "nbh-performance-hi_IN.mo",
+      "javascript_catalogs": [
+        {
+          "source": "assets/js/hub-dashboard.js",
+          "file": "nbh-performance-hi_IN-fc8cb16ca9785b95c3dc7d9891c4d9d3.json",
+          "messages": 53
+        },
+        {
+          "source": "assets/js/hub-catalog.js",
+          "file": "nbh-performance-hi_IN-f54e6825e26a8895cf1a26450084af67.json",
+          "messages": 8
+        },
+        {
+          "source": "assets/js/hub-product-quality.js",
+          "file": "nbh-performance-hi_IN-eec4466f46c2d20c17d3014e6864ea54.json",
+          "messages": 7
+        },
+        {
+          "source": "assets/js/hub-quality-runtime.js",
+          "file": "nbh-performance-hi_IN-f346e72e8897ad2245c1da4fc853d161.json",
+          "messages": 0
+        },
+        {
+          "source": "assets/js/script-manager-admin.js",
+          "file": "nbh-performance-hi_IN-866bb2c40c29ecd55f2a9bfe84db3ddf.json",
+          "messages": 4
+        },
+        {
+          "source": "assets/js/admin-notices.js",
+          "file": "nbh-performance-hi_IN-470ac673d4822f4dd12f0173c2555751.json",
+          "messages": 3
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "locale": "ur",
+      "native_name": "اردو",
+      "language_team": "Urdu",
+      "direction": "rtl",
+      "tier": "starter-core-ui",
+      "translated_messages": 72,
+      "coverage_percent": 3.4,
+      "compiled_mo": "nbh-performance-ur.mo",
+      "javascript_catalogs": [
+        {
+          "source": "assets/js/hub-dashboard.js",
+          "file": "nbh-performance-ur-fc8cb16ca9785b95c3dc7d9891c4d9d3.json",
+          "messages": 53
+        },
+        {
+          "source": "assets/js/hub-catalog.js",
+          "file": "nbh-performance-ur-f54e6825e26a8895cf1a26450084af67.json",
+          "messages": 8
+        },
+        {
+          "source": "assets/js/hub-product-quality.js",
+          "file": "nbh-performance-ur-eec4466f46c2d20c17d3014e6864ea54.json",
+          "messages": 7
+        },
+        {
+          "source": "assets/js/hub-quality-runtime.js",
+          "file": "nbh-performance-ur-f346e72e8897ad2245c1da4fc853d161.json",
+          "messages": 0
+        },
+        {
+          "source": "assets/js/script-manager-admin.js",
+          "file": "nbh-performance-ur-866bb2c40c29ecd55f2a9bfe84db3ddf.json",
+          "messages": 4
+        },
+        {
+          "source": "assets/js/admin-notices.js",
+          "file": "nbh-performance-ur-470ac673d4822f4dd12f0173c2555751.json",
+          "messages": 3
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "locale": "id_ID",
+      "native_name": "Bahasa Indonesia",
+      "language_team": "Indonesian",
+      "direction": "ltr",
+      "tier": "starter-core-ui",
+      "translated_messages": 72,
+      "coverage_percent": 3.4,
+      "compiled_mo": "nbh-performance-id_ID.mo",
+      "javascript_catalogs": [
+        {
+          "source": "assets/js/hub-dashboard.js",
+          "file": "nbh-performance-id_ID-fc8cb16ca9785b95c3dc7d9891c4d9d3.json",
+          "messages": 53
+        },
+        {
+          "source": "assets/js/hub-catalog.js",
+          "file": "nbh-performance-id_ID-f54e6825e26a8895cf1a26450084af67.json",
+          "messages": 8
+        },
+        {
+          "source": "assets/js/hub-product-quality.js",
+          "file": "nbh-performance-id_ID-eec4466f46c2d20c17d3014e6864ea54.json",
+          "messages": 7
+        },
+        {
+          "source": "assets/js/hub-quality-runtime.js",
+          "file": "nbh-performance-id_ID-f346e72e8897ad2245c1da4fc853d161.json",
+          "messages": 0
+        },
+        {
+          "source": "assets/js/script-manager-admin.js",
+          "file": "nbh-performance-id_ID-866bb2c40c29ecd55f2a9bfe84db3ddf.json",
+          "messages": 4
+        },
+        {
+          "source": "assets/js/admin-notices.js",
+          "file": "nbh-performance-id_ID-470ac673d4822f4dd12f0173c2555751.json",
+          "messages": 3
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "locale": "ja",
+      "native_name": "日本語",
+      "language_team": "Japanese",
+      "direction": "ltr",
+      "tier": "starter-core-ui",
+      "translated_messages": 72,
+      "coverage_percent": 3.4,
+      "compiled_mo": "nbh-performance-ja.mo",
+      "javascript_catalogs": [
+        {
+          "source": "assets/js/hub-dashboard.js",
+          "file": "nbh-performance-ja-fc8cb16ca9785b95c3dc7d9891c4d9d3.json",
+          "messages": 53
+        },
+        {
+          "source": "assets/js/hub-catalog.js",
+          "file": "nbh-performance-ja-f54e6825e26a8895cf1a26450084af67.json",
+          "messages": 8
+        },
+        {
+          "source": "assets/js/hub-product-quality.js",
+          "file": "nbh-performance-ja-eec4466f46c2d20c17d3014e6864ea54.json",
+          "messages": 7
+        },
+        {
+          "source": "assets/js/hub-quality-runtime.js",
+          "file": "nbh-performance-ja-f346e72e8897ad2245c1da4fc853d161.json",
+          "messages": 0
+        },
+        {
+          "source": "assets/js/script-manager-admin.js",
+          "file": "nbh-performance-ja-866bb2c40c29ecd55f2a9bfe84db3ddf.json",
+          "messages": 4
+        },
+        {
+          "source": "assets/js/admin-notices.js",
+          "file": "nbh-performance-ja-470ac673d4822f4dd12f0173c2555751.json",
+          "messages": 3
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "locale": "ko_KR",
+      "native_name": "한국어",
+      "language_team": "Korean",
+      "direction": "ltr",
+      "tier": "starter-core-ui",
+      "translated_messages": 72,
+      "coverage_percent": 3.4,
+      "compiled_mo": "nbh-performance-ko_KR.mo",
+      "javascript_catalogs": [
+        {
+          "source": "assets/js/hub-dashboard.js",
+          "file": "nbh-performance-ko_KR-fc8cb16ca9785b95c3dc7d9891c4d9d3.json",
+          "messages": 53
+        },
+        {
+          "source": "assets/js/hub-catalog.js",
+          "file": "nbh-performance-ko_KR-f54e6825e26a8895cf1a26450084af67.json",
+          "messages": 8
+        },
+        {
+          "source": "assets/js/hub-product-quality.js",
+          "file": "nbh-performance-ko_KR-eec4466f46c2d20c17d3014e6864ea54.json",
+          "messages": 7
+        },
+        {
+          "source": "assets/js/hub-quality-runtime.js",
+          "file": "nbh-performance-ko_KR-f346e72e8897ad2245c1da4fc853d161.json",
+          "messages": 0
+        },
+        {
+          "source": "assets/js/script-manager-admin.js",
+          "file": "nbh-performance-ko_KR-866bb2c40c29ecd55f2a9bfe84db3ddf.json",
+          "messages": 4
+        },
+        {
+          "source": "assets/js/admin-notices.js",
+          "file": "nbh-performance-ko_KR-470ac673d4822f4dd12f0173c2555751.json",
+          "messages": 3
+        }
+      ],
+      "review_required": true
+    },
+    {
+      "locale": "zh_CN",
+      "native_name": "简体中文",
+      "language_team": "Chinese (Simplified)",
+      "direction": "ltr",
+      "tier": "starter-core-ui",
+      "translated_messages": 72,
+      "coverage_percent": 3.4,
+      "compiled_mo": "nbh-performance-zh_CN.mo",
+      "javascript_catalogs": [
+        {
+          "source": "assets/js/hub-dashboard.js",
+          "file": "nbh-performance-zh_CN-fc8cb16ca9785b95c3dc7d9891c4d9d3.json",
+          "messages": 53
+        },
+        {
+          "source": "assets/js/hub-catalog.js",
+          "file": "nbh-performance-zh_CN-f54e6825e26a8895cf1a26450084af67.json",
+          "messages": 8
+        },
+        {
+          "source": "assets/js/hub-product-quality.js",
+          "file": "nbh-performance-zh_CN-eec4466f46c2d20c17d3014e6864ea54.json",
+          "messages": 7
+        },
+        {
+          "source": "assets/js/hub-quality-runtime.js",
+          "file": "nbh-performance-zh_CN-f346e72e8897ad2245c1da4fc853d161.json",
+          "messages": 0
+        },
+        {
+          "source": "assets/js/script-manager-admin.js",
+          "file": "nbh-performance-zh_CN-866bb2c40c29ecd55f2a9bfe84db3ddf.json",
+          "messages": 4
+        },
+        {
+          "source": "assets/js/admin-notices.js",
+          "file": "nbh-performance-zh_CN-470ac673d4822f4dd12f0173c2555751.json",
+          "messages": 3
+        }
+      ],
+      "review_required": true
+    }
+  ],
+  "fallback": "Untranslated strings safely fall back to the original English source.",
+  "quality_note": "All bundled translations require native-speaker release QA. Bengali has broad string coverage; the 15 new locales provide reviewed core navigation and action labels while long technical strings safely fall back to English."
+}
